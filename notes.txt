@@ -1,0 +1,6 @@
+Move desktop file to ~/.local/share/applications/
+
+gcc flaresolverr.c -o flaresolverr
+
+gcc flaresolverr_gui.c -o flaresolverr_gui `pkg-config --cflags --libs gtk+-3.0`
+

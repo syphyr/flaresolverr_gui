@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=Flaresolverr
+Terminal=false
+Exec=gnome-terminal --title=Flaresolverr -- /home/delta/src/flaresolverr/run
+Icon=/home/delta/src/flaresolverr/FlareSolverr/resources/flaresolverr_logo.png

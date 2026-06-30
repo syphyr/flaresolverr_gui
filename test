@@ -1,0 +1,9 @@
+curl -X POST http://localhost:8191/v1 \
+-H 'Content-Type: application/json' \
+-d '{
+  "cmd": "request.get",
+  "url": "http://eztvx.to/home",
+  "proxy": {
+    "url": "socks5://127.0.0.1:9150"
+  }
+}'

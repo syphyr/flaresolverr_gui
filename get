@@ -1,0 +1,8 @@
+if [ ! -d FlareSolverr ]; then
+   git clone https://github.com/FlareSolverr/FlareSolverr
+fi
+
+cd FlareSolverr
+git fetch
+git rebase
+

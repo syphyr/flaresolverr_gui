@@ -1,0 +1,17 @@
+#!/bin/bash
+
+#export PATH=~/src/chromium/chromium-latest-linux/latest/:$PATH
+export PROXY_URL=socks5://127.0.0.1:9150
+#export LOG_LEVEL=debug
+export HOST=127.0.0.1
+export PORT=8191
+#export CAPTCHA_SOLVER=hcaptcha
+
+cd $HOME/src/flaresolverr/FlareSolverr
+python3.11 src/flaresolverr.py &
+
+PY_PID=$!
+
+echo $PY_PID > /tmp/flaresolverr_python.pid
+
+wait $PY_PID
