@@ -1,6 +1,6 @@
 [Desktop Entry]
 Type=Application
-Name=Flaresolverr
+Name=FlareSolverr
 Terminal=false
 Exec=/home/delta/src/flaresolverr/flaresolverr_gui
 Icon=/home/delta/src/flaresolverr/FlareSolverr/resources/flaresolverr_logo.png

@@ -19,7 +19,7 @@ void on_start_clicked(GtkWidget *widget, gpointer data) {
 
     if (fork() == 0) {
         // Child process
-        execlp("gnome-terminal", "gnome-terminal", "--title=Flaresolverr", "--", "/home/delta/src/flaresolverr/run", (char *)NULL);
+        execlp("gnome-terminal", "gnome-terminal", "--title=FlareSolverr", "--", "/home/delta/src/flaresolverr/run", (char *)NULL);
         exit(1);
     }
 
