@@ -62,7 +62,7 @@ int main(int argc, char *argv[]) {
     state->window = window;
     
     gtk_window_set_title(GTK_WINDOW(window), "FlareSolverr Controller");
-    gtk_window_set_keep_above(GTK_WINDOW(window), TRUE);
+    gtk_window_set_keep_above(GTK_WINDOW(window), FALSE);
     gtk_window_set_resizable(GTK_WINDOW(window), FALSE);
     gtk_container_set_border_width(GTK_CONTAINER(window), 15);
     
